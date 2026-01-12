@@ -18,9 +18,11 @@ export const AboutMeSection = () => {
                         <h3 className="text-2xl font-semibold">Passionate Web Developer and Tech Creator</h3>
 
                         <p className="text-muted-foreground">
-                            With over 5 years of experience in web development, I specialize
-                            in creating responsive, accessible, and performant web
-                            applications using modern technologies.
+                            I'm Jose Vilanculo, a young 
+                            coding enthusiast based in Cape Town.
+                            I'm passionate about backend development, but I enjoy 
+                            the challenge of full-stack work 
+                            and constantly seek opportunities to grow.
                         </p>
 
                         <p className="text-muted-foreground">
