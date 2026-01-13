@@ -9,13 +9,17 @@ export const ThemeToggle = () => {
 
     {/* Use effect for setting saved theme */}
     useEffect(() => {
+
         const storedTheme = localStorage.getItem("theme");
-        if (storedTheme === "dark") {
-            document.documentElement.classList.add("dark");
-            setIsDarkMode(true);
-        } else {
-            localStorage.setItem("theme", "light");
+        
+        // default to dark theme
+        if (storedTheme === "light") {
+            document.documentElement.classList.remove("dark");
             setIsDarkMode(false);
+        } else {
+            document.documentElement.classList.add("dark")
+            localStorage.setItem("theme", "dark");
+            setIsDarkMode(true);
         }
     }, []);
 
@@ -54,7 +58,7 @@ export const ThemeToggle = () => {
             {isDarkMode ? (
                 <Sun className="h-6 w-6 text-yellow-300" />
             ) : (
-            <Moon className="h-6 w-d text-blue-900" />
+            <Moon className="h-6 w-6 text-blue-900" />
             )}
         </button>
     );
