@@ -30,6 +30,16 @@ const projects = [
         demoUrl: "#",
         githubUrl: "https://github.com/Jose-Vilanculo/Django-Sticky-Notes-App",
     },
+
+    {
+        id: 4,
+        title: "React Portfolio",
+        description: "A React portfolio where I display myself as a developer and show off some of my projects",
+        image: "/projects/portfolio-home.png",
+        tags: ["Javascript", "React", "Tailwind"],
+        demoUrl: "https://react-portfolio-seven-pi-84.vercel.app/#hero",
+        githubUrl: "https://github.com/Jose-Vilanculo/React-Portfolio",
+    },
 ]
 
 export const ProjectSection = () => {
