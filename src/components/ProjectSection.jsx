@@ -40,6 +40,16 @@ const projects = [
         demoUrl: "https://react-portfolio-seven-pi-84.vercel.app/#hero",
         githubUrl: "https://github.com/Jose-Vilanculo/React-Portfolio",
     },
+
+    {
+        id: 5,
+        title: "React Beach House",
+        description: "A responsive React website for booking a beach house stay.",
+        image: "/projects/beach-house.png",
+        tags: ["Javascript", "React", "Radix-UI"],
+        demoUrl: "https://react-beach-house.vercel.app/",
+        githubUrl: "https://github.com/Jose-Vilanculo/React-Beach-House.git",
+    },
 ]
 
 export const ProjectSection = () => {
