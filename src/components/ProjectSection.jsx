@@ -13,22 +13,22 @@ const projects = [
 
     {
         id: 2,
+        title: "React Beach House",
+        description: "A responsive React website for booking a beach house stay.",
+        image: "/projects/beach-house.png",
+        tags: ["Javascript", "React", "Radix-UI"],
+        demoUrl: "https://react-beach-house.vercel.app/",
+        githubUrl: "https://github.com/Jose-Vilanculo/React-Beach-House.git",
+    },
+
+    {
+        id: 3,
         title: "Django News Application",
         description: "A Django-based news platform for independent journalism and curated publications.",
         image: "/projects/news_application.jpg",
         tags: ["Python", "Django", "Docker", "Sphinx"],
         demoUrl: "https://djangonewsapplication-production.up.railway.app/",
         githubUrl: "https://github.com/Jose-Vilanculo/Django_News_Application",
-    },
-
-    {
-        id: 3,
-        title: "Sticky Notes Application",
-        description: "A Django based Sticky Notes application for users to create,read update and delete notes",
-        image: "/projects/sticky-notes-hero.png",
-        tags: ["Python", "Django", "Bootstrap"],
-        demoUrl: "*",
-        githubUrl: "https://github.com/Jose-Vilanculo/Django-Sticky-Notes-App",
     },
 
     {
@@ -43,13 +43,14 @@ const projects = [
 
     {
         id: 5,
-        title: "React Beach House",
-        description: "A responsive React website for booking a beach house stay.",
-        image: "/projects/beach-house.png",
-        tags: ["Javascript", "React", "Radix-UI"],
-        demoUrl: "https://react-beach-house.vercel.app/",
-        githubUrl: "https://github.com/Jose-Vilanculo/React-Beach-House.git",
+        title: "Sticky Notes Application",
+        description: "A Django based Sticky Notes application for users to create,read update and delete notes",
+        image: "/projects/sticky-notes-hero.png",
+        tags: ["Python", "Django", "Bootstrap"],
+        demoUrl: "*",
+        githubUrl: "https://github.com/Jose-Vilanculo/Django-Sticky-Notes-App",
     },
+
 ]
 
 export const ProjectSection = () => {
