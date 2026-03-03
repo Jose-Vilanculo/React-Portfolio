@@ -7,7 +7,7 @@ const projects = [
         description: "A multi-vendor Django e-commerce website which allows buyers and vendors to trade.",
         image: "/projects/ecommerce_store.jpg",
         tags: ["Python", "Django", "RESTful API"],
-        demoUrl: "#",
+        demoUrl: "https://josevilanculo.pythonanywhere.com/",
         githubUrl: "https://github.com/Jose-Vilanculo/Django-eCommerce-Application",
     },
 
@@ -17,7 +17,7 @@ const projects = [
         description: "A Django-based news platform for independent journalism and curated publications.",
         image: "/projects/news_application.jpg",
         tags: ["Python", "Django", "Docker", "Sphinx"],
-        demoUrl: "#",
+        demoUrl: "https://djangonewsapplication-production.up.railway.app/",
         githubUrl: "https://github.com/Jose-Vilanculo/Django_News_Application",
     },
 
@@ -27,7 +27,7 @@ const projects = [
         description: "A Django based Sticky Notes application for users to create,read update and delete notes",
         image: "/projects/sticky-notes-hero.png",
         tags: ["Python", "Django", "Bootstrap"],
-        demoUrl: "#",
+        demoUrl: "*",
         githubUrl: "https://github.com/Jose-Vilanculo/Django-Sticky-Notes-App",
     },
 
