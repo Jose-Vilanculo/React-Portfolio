@@ -15,12 +15,12 @@ export const AboutMeSection = () => {
                     {/* Left section */}
 
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">Passionate Web Developer and Tech Creator</h3>
+                        <h3 className="text-2xl font-semibold">Passionate Junior Software Developer</h3>
 
                         <p className="text-muted-foreground">
                             I'm Jose Vilanculo, a young 
                             coding enthusiast based in Cape Town.
-                            I'm passionate about backend development, but I enjoy 
+                            I'm passionate about coding, and enjoy 
                             the challenge of full-stack work 
                             and constantly seek opportunities to grow.
                         </p>
@@ -95,7 +95,7 @@ export const AboutMeSection = () => {
                                     <Briefcase className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Development</h4>
+                                    <h4 className="font-semibold text-lg">Deployment</h4>
                                     <p className="text-muted-foreground">
                                         Leading projects from conception to
                                         completion with agile methodologies
